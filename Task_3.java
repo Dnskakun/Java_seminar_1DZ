@@ -13,6 +13,7 @@ public class Task_3 {
         int num_y = scanner.nextInt();
 
         calc(num_x, num_y);
+        scanner.close();
     }
 
     static void calc(int x, int y) {
@@ -24,6 +25,7 @@ public class Task_3 {
                             4. деление""");
         Scanner scanner = new Scanner(System.in);
         int num_choice = scanner.nextInt();
+        scanner.close();
 
         switch (num_choice) {
             case 1:
